@@ -1,0 +1,1 @@
+!function(o){o(document).ready((function(){o(window).on("scroll",(function(){o(window).scrollTop()>500?o("#back-to-top").addClass("back-to-top-show"):o("#back-to-top").removeClass("back-to-top-show")})),o("#back-to-top").on("click",(function(t){t.preventDefault(),o("html,body").animate({scrollTop:0},700)}))}))}(jQuery);
